@@ -39,7 +39,7 @@
 
 for (int i = 0; i < 10; i++)
 {
-    cout << "This is a FOR LOOP " << i << endl;
+    std::cout << "This is a FOR LOOP " << i << endl;
 }
 
 
@@ -53,7 +53,7 @@ for (int i = 0; i < 10; i++)
 int i = 0;
 while (i < 10)
 {
-    cout << "This is a WHILE LOOP " << i << endl;
+    std::cout << "This is a WHILE LOOP " << i << endl;
     i += 1;
 }
 
@@ -68,7 +68,7 @@ while (i < 10)
 int i = 0;
 do
 {
-    cout << "This is a DO WHILE LOOP " << i << endl;
+    std::cout << "This is a DO WHILE LOOP " << i << endl;
     i++;
 }
 while (i < 20);
@@ -84,23 +84,23 @@ int equiv = 0;
 
 // Addition
 equiv = firstNum + secondNum;
-cout << equiv << endl;
+std::cout << equiv << endl;
 
 // Subtraction
 equiv = firstNum - secondNum;
-cout << equiv << endl;
+std::cout << equiv << endl;
 
 // Multiplication
 equiv = firstNum * secondNum;
-cout << equiv << endl;
+std::cout << equiv << endl;
 
 // Division
 equiv = firstNum / secondNum;
-cout << equiv << endl;
+std::cout << equiv << endl;
 
 // Modulus
 equiv = firstNum % secondNum;;
-cout << equiv << endl;
+std::cout << equiv << endl;
 
 
 // Relational Operators
@@ -116,7 +116,7 @@ cout << equiv << endl;
 
 if (x < 20) {      // True
     // Execute this code if true
-    cout << 'Yes it is less than' << endl;
+    std::cout << 'Yes it is less than' << endl;
 } else {           // False
     // Execute this if false
 }
@@ -124,7 +124,7 @@ if (x < 20) {      // True
 // False
 if (x > 12) {
     // Execute this code if true
-    cout << 'Yes it is less than' << endl;
+    std::cout << 'Yes it is less than' << endl;
 }
 
 
@@ -203,5 +203,24 @@ if (num1 == 1000 || num1 != 1234) {
     // Execute if true
 } else {
         // Execute if false
+}
+
+
+
+// What is Array? 
+
+// An array us a data structure consisting of a collection of elements (values or variables)
+// each identified by at least on array index or key.
+
+int[] storage = new int[5];
+storage[0] = 100;
+storage[1] = 200;
+storage[2] = 300;
+storage[3] = 400;
+storage[4] = 500;
+
+
+for (int i = 0; i < storage.length; i++) {
+    std::cout << i << endl;
 }
 
